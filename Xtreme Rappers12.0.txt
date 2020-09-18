@@ -1,0 +1,19 @@
+// Xtreme Rappers (C++)
+// Ron Prasad : 100 Points
+
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+typedef long long int LL;
+
+int main() {
+    LL k, j;
+    cin >> k >> j;
+ 
+    LL temp = 0;
+    
+    temp = min(min(j, k), (j+k)/3);
+    cout << temp << endl;
+    
+}
